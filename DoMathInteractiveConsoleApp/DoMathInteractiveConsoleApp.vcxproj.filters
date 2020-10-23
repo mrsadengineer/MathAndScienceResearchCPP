@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\PureMathematics">
+      <UniqueIdentifier>{1fb13696-9521-4efe-8f6d-a0c714624749}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PureMathematics\changes">
+      <UniqueIdentifier>{8a1efe50-cb28-4432-a8dd-ecb599c31962}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Foundations">
+      <UniqueIdentifier>{e5610b30-bfd1-4098-99f1-2914e2323532}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AppliedMathematics">
+      <UniqueIdentifier>{b9433274-369c-467c-8530-267eecb1f50b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PureMathematics\spaces">
+      <UniqueIdentifier>{37bffd81-e5b2-46d0-9152-aee2ba2a5beb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PureMathematics\structures">
+      <UniqueIdentifier>{2373dedc-2a80-481e-84c3-0b8e474e8398}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PureMathematics\numbersystems">
+      <UniqueIdentifier>{46c1fad1-cea4-4f11-8fc0-cc6f98c7aa0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Origins">
+      <UniqueIdentifier>{2b56dab8-f88d-450a-94a0-4654b660d308}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DoMathInteractiveConsoleApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Trigonometry.cpp">
+      <Filter>Source Files\PureMathematics\spaces</Filter>
+    </ClCompile>
+    <ClCompile Include="Cryptography.cpp">
+      <Filter>Source Files\AppliedMathematics</Filter>
+    </ClCompile>
+    <ClCompile Include="ComputerScience.cpp">
+      <Filter>Source Files\AppliedMathematics</Filter>
+    </ClCompile>
+    <ClCompile Include="MachineLearning.cpp">
+      <Filter>Source Files\AppliedMathematics</Filter>
+    </ClCompile>
+    <ClCompile Include="Calculus.cpp">
+      <Filter>Source Files\PureMathematics\changes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HeaderTest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="TrigonomertyNotes.txt">
+      <Filter>Source Files\PureMathematics\spaces</Filter>
+    </Text>
+    <Text Include="ComputerScienceNotes.txt">
+      <Filter>Source Files\AppliedMathematics</Filter>
+    </Text>
+    <Text Include="Text.txt">
+      <Filter>Source Files\AppliedMathematics</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
