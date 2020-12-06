@@ -57,9 +57,27 @@
     <ClCompile Include="Calculus.cpp">
       <Filter>Source Files\PureMathematics\changes</Filter>
     </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry.cpp">
+      <Filter>Source Files\PureMathematics\spaces</Filter>
+    </ClCompile>
+    <ClCompile Include="Algebra.cpp">
+      <Filter>Source Files\PureMathematics\structures</Filter>
+    </ClCompile>
+    <ClCompile Include="LinearAlgebra.cpp">
+      <Filter>Source Files\PureMathematics\structures</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="HeaderTest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="trigheader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interactapp.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

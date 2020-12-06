@@ -5,6 +5,14 @@ VisualStudioVersion = 16.0.30406.217
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DoMathInteractiveConsoleApp", "DoMathInteractiveConsoleApp\DoMathInteractiveConsoleApp.vcxproj", "{8B566966-E240-4E96-8155-CAEA18E44909}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MathSci.Tests", "MathSci.Tests\MathSci.Tests.vcxproj", "{1FABDA95-ECD1-4B4F-BCE7-7D6A85CF6A08}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CF17CEA7-0236-47F6-99D3-29B59AB2CB63}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+		removedshowcase.txt = removedshowcase.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +29,14 @@ Global
 		{8B566966-E240-4E96-8155-CAEA18E44909}.Release|x64.Build.0 = Release|x64
 		{8B566966-E240-4E96-8155-CAEA18E44909}.Release|x86.ActiveCfg = Release|Win32
 		{8B566966-E240-4E96-8155-CAEA18E44909}.Release|x86.Build.0 = Release|Win32
+		{1FABDA95-ECD1-4B4F-BCE7-7D6A85CF6A08}.Debug|x64.ActiveCfg = Debug|x64
+		{1FABDA95-ECD1-4B4F-BCE7-7D6A85CF6A08}.Debug|x64.Build.0 = Debug|x64
+		{1FABDA95-ECD1-4B4F-BCE7-7D6A85CF6A08}.Debug|x86.ActiveCfg = Debug|Win32
+		{1FABDA95-ECD1-4B4F-BCE7-7D6A85CF6A08}.Debug|x86.Build.0 = Debug|Win32
+		{1FABDA95-ECD1-4B4F-BCE7-7D6A85CF6A08}.Release|x64.ActiveCfg = Release|x64
+		{1FABDA95-ECD1-4B4F-BCE7-7D6A85CF6A08}.Release|x64.Build.0 = Release|x64
+		{1FABDA95-ECD1-4B4F-BCE7-7D6A85CF6A08}.Release|x86.ActiveCfg = Release|Win32
+		{1FABDA95-ECD1-4B4F-BCE7-7D6A85CF6A08}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -6,7 +6,10 @@
 
 #define PI 3.14159265
 void solveForAngleThetaOfARightTriangle();
-int main() {
+double returnAngleThetaOfARightTriange(double);
+
+
+int maintrig() {
 
 	std::cout << "test from trig cpp" << std::endl;
 
@@ -18,9 +21,11 @@ int main() {
 
 
 	solveForAngleThetaOfARightTriangle();
+	return 0;
+}
+void printDegreeRadiansHypotLOppL(float x, float y) {
 
 }
-
 
 void solveForAngleThetaOfARightTriangle() {
 
@@ -35,8 +40,27 @@ void solveForAngleThetaOfARightTriangle() {
 	param2 = 0.8;
 	result2 = acos(param2) * 180.0 / PI;
 
-	std::cout << asin(param2) << std::endl;
+
 	printf("The arc cosine of %f is %f degrees.\n", param2, result2);
 	//return 0;
 
 };
+
+void asinnumb(){
+	double param2 = 0.8;
+	std::cout << asin(param2) << std::endl;
+
+}
+
+double returnAngleThetaOfARightTriange(double arcsign) {
+	double param, result;
+
+	param = arcsign;
+	result = asin(param) * 180.0 / PI;
+	
+	
+	printf("%f",result);
+	
+	
+	return result;
+}
