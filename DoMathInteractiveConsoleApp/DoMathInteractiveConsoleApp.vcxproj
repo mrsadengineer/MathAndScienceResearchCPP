@@ -139,11 +139,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AbstractAlgebra.cpp" />
     <ClCompile Include="Calculus.cpp" />
     <ClCompile Include="ComputerScience.cpp" />
     <ClCompile Include="Cryptography.cpp" />
     <ClCompile Include="DoMathInteractiveConsoleApp.cpp" />
     <ClCompile Include="Geometry.cpp" />
+    <ClCompile Include="LinearAlegbra.cpp" />
     <ClCompile Include="LinearAlgebra.cpp" />
     <ClCompile Include="MachineLearning.cpp" />
     <ClCompile Include="main.cpp" />
@@ -158,7 +160,6 @@
   <ItemGroup>
     <Text Include="ComputerScienceNotes.txt" />
     <Text Include="Text.txt" />
-    <Text Include="TrigonomertyNotes.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

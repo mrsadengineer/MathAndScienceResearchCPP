@@ -9,9 +9,12 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MathSci.Tests", "MathSci.Te
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CF17CEA7-0236-47F6-99D3-29B59AB2CB63}"
 	ProjectSection(SolutionItems) = preProject
+		docsdown.md = docsdown.md
 		README.md = README.md
-		removedshowcase.txt = removedshowcase.txt
+		TrigNotes.md = TrigNotes.md
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DomainResearchNotes", "DomainResearchNotes", "{91E7E396-065F-4CB6-9761-B4B23F4709B9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

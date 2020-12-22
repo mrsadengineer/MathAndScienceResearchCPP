@@ -1,7 +1,8 @@
 /*
 
 
-
+Thinking I would use Computer science to learn Cpp.
+Create a reference for cpp related programming. 
 
 
 

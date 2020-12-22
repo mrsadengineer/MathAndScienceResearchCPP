@@ -12,8 +12,8 @@ int getWhatTheyWant();
 void printAllDomainAreaOptions() {
     
     
-    cout << "Origins " << endl;
-    cout << "Foundations" << endl;
+    //cout << "Origins " << endl;
+    //cout << "Foundations" << endl;
     cout << "Pure Mathematics " << endl;
     cout << "Applied Mathematics " << endl;
 
@@ -22,8 +22,8 @@ void printAllDomainAreaOptions() {
 int getWhatTheyWant() {
     int choice;
 
-    cout << "1 - Origins " << endl;
-    cout << "2 - Foundations" << endl;
+    //cout << "1 - Origins " << endl;
+    //cout << "2 - Foundations" << endl;
     cout << "3 - Pure Mathematics " << endl;
 	cout << "4 - Applied Mathematics " << endl;
 	cout << "5 - print off list " << endl;

@@ -1,9 +1,9 @@
 #include "interactapp.h"
 
 
-void solveForAngleThetaOfARightTriangle();
+//void solveForAngleThetaOfARightTriangle();
 int main() {
-	solveForAngleThetaOfARightTriangle();
-	//starrtConsoleInteraction();
+	//solveForAngleThetaOfARightTriangle();
+	starrtConsoleInteraction();
 	return 0;
 };

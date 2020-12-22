@@ -11,6 +11,16 @@ This repository is for practice and learning C++. I hope to create an interactiv
 -[ ] create c implementation and use library.   
 -[ ] Learn about implementating Modules     
 
+## Progression
+Pure Mathematics  
+ * linear Algebra  
+ * abstract algebra  
+ * calculus
+ * Real Analysis
+ * Topology
+ * Differential Equations  
+ * Complex Analysis  
+ * Differential Geometry  
 
 
 ## Introduction - the project's aim  
@@ -84,3 +94,8 @@ debug unit test
 create unit test in cpp
 create unit test classes in CppUnitTest.h
 add project for testing \#include "../<project>/<file>.cpp"
+
+
+
+## resources domain subject outline
+https://www.youtube.com/watch?v=fo-alw2q-BU  

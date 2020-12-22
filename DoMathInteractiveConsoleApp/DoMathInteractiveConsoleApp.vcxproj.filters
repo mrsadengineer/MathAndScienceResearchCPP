@@ -19,9 +19,6 @@
     <Filter Include="Source Files\PureMathematics\changes">
       <UniqueIdentifier>{8a1efe50-cb28-4432-a8dd-ecb599c31962}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\Foundations">
-      <UniqueIdentifier>{e5610b30-bfd1-4098-99f1-2914e2323532}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source Files\AppliedMathematics">
       <UniqueIdentifier>{b9433274-369c-467c-8530-267eecb1f50b}</UniqueIdentifier>
     </Filter>
@@ -34,7 +31,7 @@
     <Filter Include="Source Files\PureMathematics\numbersystems">
       <UniqueIdentifier>{46c1fad1-cea4-4f11-8fc0-cc6f98c7aa0a}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\Origins">
+    <Filter Include="Source Files\OriginsFoundation">
       <UniqueIdentifier>{2b56dab8-f88d-450a-94a0-4654b660d308}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -69,6 +66,12 @@
     <ClCompile Include="LinearAlgebra.cpp">
       <Filter>Source Files\PureMathematics\structures</Filter>
     </ClCompile>
+    <ClCompile Include="LinearAlegbra.cpp">
+      <Filter>Source Files\PureMathematics</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractAlgebra.cpp">
+      <Filter>Source Files\PureMathematics</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="HeaderTest.h">
@@ -82,9 +85,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="TrigonomertyNotes.txt">
-      <Filter>Source Files\PureMathematics\spaces</Filter>
-    </Text>
     <Text Include="ComputerScienceNotes.txt">
       <Filter>Source Files\AppliedMathematics</Filter>
     </Text>
